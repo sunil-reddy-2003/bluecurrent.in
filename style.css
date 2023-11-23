@@ -1,0 +1,188 @@
+.orange-bg{
+    background-color: #f2f2f2;
+
+    border-radius: 8PX;
+    margin-bottom: 100px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-bin{
+    background-image: linear-gradient(to bottom,#ff589b 0%,#ff236b 100%);
+    color: #fff;
+    border:none;
+    border-radius: 8px;
+    padding: 10px 27px;
+    cursor: pointer;
+   
+}
+.h1{
+    color:white;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background: orange;
+}
+.cat2{
+    background: orchid;
+
+}
+.cat3{
+    background: rgb(7, 72, 29);
+}
+#card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+#card-footer {
+    background-color: #f2f2f2;
+
+    border-top: none;
+}
+.container{
+    margin-bottom: 100px;
+}
+#contacus{
+    height: 300px;
+}
+#sent-bin{
+    margin-top: 10px;
+    margin-left: auto;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+/* Existing styles... */
+
+/* Brighten the color of navbar links on hover */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease; /* Adding transition for a smooth effect */
+}
+
+/* Change color of header links on hover */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: blue !important; /* Change to red on hover and focus */
+}
+
+
+/* Floating effect for navbar links */
+.navbar-nav .nav-link {
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: translateY(-3px); /* Adjust the value to control the amount of floating */
+}
+
+
+/* Add this code to increase the size of header links */
+.navbar-nav .nav-link {
+    font-size: 24px; /* Adjust the font size as per your preference */
+    /* Other styles you want to apply */
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+/* Add some padding to the body to avoid content being hidden under the fixed header */
+body {
+    padding-top: 80px; /* Adjust the value to match the height of your header */
+    /* Other styles */
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.site-header h1 {
+    font-weight: italic;
+    font-family: 'Lucida Handwriting', cursive;
+    color: black;
+    margin: 0;
+    font-size: 32px;
+}
+
+
+/* Define animation for continuously changing text color */
+@keyframes colorChange {
+    0% { color: #ff0000; } /* Start color */
+    25% { color: #0000ff; } /* Color change at 25% */
+    50% { color: #ff0000; } /* Color change at 50% */
+    75% { color: #0000ff; } /* Color change at 75% */
+    100% { color: #ff0000; } /* End color, same as start for loop effect */
+}
+
+/* Apply animation to the site header text */
+.site-header h1 {
+    animation: colorChange 5s infinite; /* Change '5s' to adjust the speed of color transition */
+    /* Other existing styles */
+}
+
+
+
+/* Social icons */
+.social-icons {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  #contact {
+    background-color: #fff;
+    text-align: center;
+}
+#contact {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+  }
+  #contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  #contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+
+  /* Add this CSS to your existing styles */
+.contact-section {
+    background-image: url('mmm.jpg'); /* Replace with your image file name and extension */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    color: white; /* Set text color */
+}
